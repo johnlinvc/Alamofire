@@ -107,7 +107,7 @@ public class Manager {
     let queue = dispatch_queue_create(nil, DISPATCH_QUEUE_SERIAL)
 
     /// The underlying session.
-    public let session: NSURLSession
+    public var session: NSURLSession
 
     /// The session delegate handling all the task and session delegate callbacks.
     public let delegate: SessionDelegate
